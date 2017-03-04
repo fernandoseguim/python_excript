@@ -4,7 +4,6 @@
     <list default="true" id="14128c93-0cdd-4f9a-8ee0-d32b541c3823" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data_structures.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/short_game.py" afterPath="$PROJECT_DIR$/short_game.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -465,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1487280407403</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix shor_game">
+      <created>1488656558667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1488656558667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -500,7 +506,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="short game" />
-    <option name="LAST_COMMIT_MESSAGE" value="short game" />
+    <MESSAGE value="fix shor_game" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix shor_game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
