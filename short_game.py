@@ -1,4 +1,5 @@
 from random import randint
+
 hit = False;
 machine_number = randint(1,9)
 shot_number = -1
