@@ -46,13 +46,34 @@ print(hortfrutti)
 
 # remover an element from dictionary
 hortfrutti.pop('laranja')
+del(hortfrutti['banana'])
 
 print(hortfrutti)
-print(type(hortfrutti))
+
 
 # input a news elements to dictionary
 hortfrutti['laranja'] = {'pera':40,'lima':90,'baiana':20}
 hortfrutti['uva'] = {'crismon':200,'italiana':180,'rubi':120}
 
+hortfrutti.update({'tangerina':{'poncã':100, 'importada':40, 'morgote': 200}})
+
+del(hortfrutti['tangerina'])
+
+tangerinas = {'tangerina':{'poncã':100, 'importada':40, 'morgote': 200}}
+hortfrutti.update(tangerinas)
+
+
 print(hortfrutti)
+
 print(type(hortfrutti))
+
+
+print(hortfrutti.keys())
+print(hortfrutti.values())
+
+# remove a first element da lista
+print(hortfrutti.popitem())
+print(hortfrutti)
+
+print('laranja' in hortfrutti)
+print('maça' in hortfrutti)
